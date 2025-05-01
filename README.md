@@ -6,22 +6,21 @@ GraphQL เป็นภาษาที่ใช้ในการ Query กั�
 > 
 
 <aside>
-💡
-
-“GraphQL”  VS  “SQL”
-
+💡 “GraphQL”  VS  “SQL”
 GraphQL : ไม่ได้เข้าถึง Database โดยตรง เป็นเเค่ตัวกลางรอรับคำสั่ง Query จาก Frontend  ❌
-
- SQL         :   ดึงข้อมูลจาก Database ได้โดยตรง   ✅
-
+ SQL    :   ดึงข้อมูลจาก Database ได้โดยตรง   ✅
 </aside>
 
-<img src="https://github.com/user-attachments/assets/d55a1f46-d665-454c-ad8e-8ca79006b23a" width="400"/>
-
+<p align="center">
+ <img src="https://github.com/user-attachments/assets/d55a1f46-d665-454c-ad8e-8ca79006b23a" width="400"/>
+</p>
 ---
 
 ## Q:   GraphQL ต่างกับ REST API ?
-![image](https://github.com/user-attachments/assets/5823f467-ab3b-4a0c-8a49-6a05bbf72188)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/5823f467-ab3b-4a0c-8a49-6a05bbf72188" width="500"/>
+</p>
+<p align="center">
 | หัวข้อ | REST API | GraphQL |
 |--------|----------|---------|
 | 📍 Endpoint | หลาย endpoint | แค่ endpoint เดียว |
@@ -29,9 +28,9 @@ GraphQL : ไม่ได้เข้าถึง Database โดยตรง �
 | ⚙️ Method | ใช้ GET, POST, PUT, DELETE | ใช้ query และ mutation |
 | 📈 Performance | อาจ over-fetch/under-fetch | ควบคุมข้อมูลได้แม่นยำ |
 | 🚧 Versioning | ต้องมี `/v1`, `/v2` | ไม่ต้อง versioning |
-| 📡 เรียนรู้ | ง่ายกว่า, คุ้นเคย | ต้องเรียน syntax เพิ่ม |
+| 📡 เรียนรู้ | ง่ายกว่า, คุ้นเคย | ต้องเรียน syntax เพิ่ม | 
+</p>
 ---
-
 ## Server “Apollo”
  
 **[ 0. ] Server Setup**
