@@ -16,7 +16,7 @@ GraphQL : ไม่ได้เข้าถึง Database โดยตรง �
 
 </aside>
 
-![image.png](attachment:13af3a64-1034-4df9-86ea-d04abb50e05c:image.png)
+![image](https://github.com/user-attachments/assets/d55a1f46-d665-454c-ad8e-8ca79006b23a)
 
 ---
 
@@ -33,8 +33,8 @@ GraphQL : ไม่ได้เข้าถึง Database โดยตรง �
 ---
 
 ## Server “Apollo”
-
-### [ 0. ] Server Setup
+ 
+**[ 0. ] Server Setup**
 
 ```powershell
 npm init -yes; npm pkg set type=module; npm install @apollo/server graphql
@@ -42,7 +42,7 @@ npm init -yes; npm pkg set type=module; npm install @apollo/server graphql
 
 ---
 
-### [ 1. ] กำหนด Graph Schema ( Typedefs )
+**[ 1. ] กำหนด Graph Schema ( Typedefs )**
 
      RooT Types แบ่งออกเป็น 2 + 1 (additional )
 
@@ -52,12 +52,12 @@ npm init -yes; npm pkg set type=module; npm install @apollo/server graphql
 
 ---
 
-### [ 2. ] Set Resovler
+**[ 2. ] Set Resovler**
 
        เป็น Function handle fetching เชื่อมต่อระหว่าง “Graph Schema” และ “Real Data”   
 ---
 
-### [ 3. ] Create  + Start Apollo Server 
+**[ 3. ] Create  + Start Apollo Server** 
 
 ---
 
@@ -65,13 +65,13 @@ npm init -yes; npm pkg set type=module; npm install @apollo/server graphql
 
      ต้องทำการดึงข้อมูลจาก Server ที่เชื่อมต่อกับฐานข้อมูลไว้ อย่างที่ Set Apollo Server ไปเบื้องต้น
 
-### [ 0. ] : Client Setup  ( after set Vite )
+**[ 0. ] : Client Setup  ( after set Vite )**
 
 ```powershell
 npm install @apollo/client graphql
 ```
 
-### [ 1. ] useHook
+**[ 1. ] useHook**
 
 - useQuery : ดึงข้อมูล คล้าย method “GET” —> แต่ข้อดีคือ specific ได้ว่าต้องการอะไรบ้าง
 - useMutation : สร้างข้อมูลขึ้นมาใหม่
