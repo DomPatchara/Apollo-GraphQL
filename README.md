@@ -40,8 +40,7 @@ GraphQL เป็นภาษาที่ใช้ในการ Query กั�
 ```powershell
 npm init -yes; npm pkg set type=module; npm install @apollo/server graphql
 ```
-**[ 1. ] กำหนด Graph Schema ( Typedefs )**
-  RooT Types แบ่งออกเป็น 2 + 1 (additional )
+**[ 1. ] กำหนด Graph Schema ( Typedefs )** ----> RooT Types แบ่งออกเป็น 2 + 1 (additional )
 
 1. Query : Get เลือกดึงข้อมูล User สามารถ Specific ผ่าน arg ได้
 2. Mutation : สร้าง User ใหม่
