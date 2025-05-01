@@ -20,7 +20,7 @@ GraphQL เป็นภาษาที่ใช้ในการ Query กั�
 
 ---
 
-## Q:   GraphQL ต่างกับ REST API ?
+## Q:   GraphQL ต่างกับ REST API ยังไง ?
 
 <img src="https://github.com/user-attachments/assets/5823f467-ab3b-4a0c-8a49-6a05bbf72188" width="600"/>
 
