@@ -34,7 +34,7 @@ GraphQL เป็นภาษาที่ใช้ในการ Query กั�
 | 📡 เรียนรู้ | ง่ายกว่า, คุ้นเคย | ต้องเรียน syntax เพิ่ม | 
 
 ---
-
+# How GraphQL + Apollo Work ?
 ## Server “Apollo”
  
 **[ 0. ] Server Setup**
@@ -55,7 +55,7 @@ npm init -yes; npm pkg set type=module; npm install @apollo/server graphql
 
 ---
 
-**[ 2. ] Set Resovler**
+**[ 2. ] Set Resolvers**
 
        เป็น Function handle fetching เชื่อมต่อระหว่าง “Graph Schema” และ “Real Data”   
 ---
