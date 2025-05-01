@@ -16,7 +16,7 @@ GraphQL : ไม่ได้เข้าถึง Database โดยตรง �
 
 </aside>
 
-![image](https://github.com/user-attachments/assets/d55a1f46-d665-454c-ad8e-8ca79006b23a)
+<img src="https://github.com/user-attachments/assets/d55a1f46-d665-454c-ad8e-8ca79006b23a" width="400"/>
 
 ---
 
