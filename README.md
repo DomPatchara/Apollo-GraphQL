@@ -5,9 +5,8 @@ GraphQL เป็นภาษาที่ใช้ในการ Query กั�
 > GraphQL ( Client ) <————> Apollo GraphQL ( Server ) <----> Database
  
 
-<aside>
 💡 **"Apollo GraphQL (Server)"** can fully replace "REST API route" 
-</aside> 
+
 
 <p align="center">
  <img src="https://github.com/user-attachments/assets/d55a1f46-d665-454c-ad8e-8ca79006b23a" width="600"/>
