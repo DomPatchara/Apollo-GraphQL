@@ -2,11 +2,11 @@
 
 GraphQL เป็นภาษาที่ใช้ในการ Query กับ API ( ใช้แทน REST API ) ช่วยให้ Client ทำการส่ง Request ข้อมูลที่ต้องการไปยัง Server และ ได้รับ Response ข้อมูลตามที่ Client ต้องการได้ง่ายมากขึ้น
 
-> GraphQL ( Client ) <————> Apollo GraphQL ( Server ): <----> Database
+> GraphQL ( Client ) <————> Apollo GraphQL ( Server ) <----> Database
  
 
 <aside>
-💡 `Apollo GraphQL (Server)` can fully replace `REST API route`
+💡 **"Apollo GraphQL (Server)"** can fully replace "REST API route" 
 </aside> 
 
 <p align="center">
